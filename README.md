@@ -92,6 +92,3 @@ js获取`clientWidth`，分成十份。再设置`rem`。字体大小则是`12 * 
 ![](https://s1.ax1x.com/2020/08/03/aU0BDA.gif)
 
 ## rem + vw（网易移动端做法）
-
-#### 
-
