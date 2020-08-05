@@ -9,4 +9,8 @@ module.exports = {
       remUnit: 37.5
     }
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f275f9e00e9c99edefd32b5b57acac9c9f17ccc3

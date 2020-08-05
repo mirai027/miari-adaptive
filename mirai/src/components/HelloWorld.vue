@@ -40,7 +40,28 @@
           void-color="#eee"
         />
       </div>
+<<<<<<< HEAD
     </div>
+=======
+      <!-- 滑块 -->
+      <el-slider v-model="value2"></el-slider>
+
+      <!-- 表格 -->
+      <el-table :data="tableData" border style="width: 100%">
+        <el-table-column prop="date" label="日期"> </el-table-column>
+        <el-table-column prop="name" label="姓名"> </el-table-column>
+        <el-table-column prop="address" label="地址"> </el-table-column>
+      </el-table>
+    </div>
+    <!-- 提交订单 -->
+    <van-submit-bar :price="3050" button-text="提交订单" style="z-index: 9999">
+      <van-checkbox v-model="checked">全选</van-checkbox>
+      <template #tip>
+        你的收货地址不支持同城送,
+        <span>修改地址</span>
+      </template>
+    </van-submit-bar>
+>>>>>>> f275f9e00e9c99edefd32b5b57acac9c9f17ccc3
   </div>
 </template>
 
@@ -49,7 +70,35 @@ export default {
   name: 'HelloWorld',
   data() {
     return {
+<<<<<<< HEAD
       value: 4.5
+=======
+      value: 4.5,
+      value2: 60,
+      tableData: [
+        {
+          date: '2016-05-02',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1518 弄'
+        },
+        {
+          date: '2016-05-04',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1517 弄'
+        },
+        {
+          date: '2016-05-01',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1519 弄'
+        },
+        {
+          date: '2016-05-03',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1516 弄'
+        }
+      ],
+      checked: true
+>>>>>>> f275f9e00e9c99edefd32b5b57acac9c9f17ccc3
     }
   }
 }
