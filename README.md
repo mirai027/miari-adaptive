@@ -1,10 +1,6 @@
 ## 起步
 
-<<<<<<< HEAD
-### rem是什么
-=======
 ### rem 是什么
->>>>>>> f275f9e00e9c99edefd32b5b57acac9c9f17ccc3
 
 `rem`（font size of the root element）是指相对于根元素`<html>`来做计算的字体大小单位。
 
@@ -16,11 +12,7 @@ e.g. 设置`html { font-size: 75px }`时，其他元素`1rem = 75px`，`4rem = 3
 
 e.g. 设备物理宽度为`375px`时，`1vw = 3.75px`
 
-<<<<<<< HEAD
-### dpr是什么
-=======
 ### dpr 是什么
->>>>>>> f275f9e00e9c99edefd32b5b57acac9c9f17ccc3
 
 设备像素比`device pixel ratio`简称`dpr`，即物理像素和设备独立像素的比值。
 

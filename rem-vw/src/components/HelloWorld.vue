@@ -171,7 +171,7 @@ html {
   }
 }
 
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 768px) {
   html {
     font-size: 9vw;
     max-width: 768px;

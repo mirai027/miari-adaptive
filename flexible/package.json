@@ -10,10 +10,7 @@
   "dependencies": {
     "amfe-flexible": "^2.2.1",
     "core-js": "^3.6.5",
-<<<<<<< HEAD
-=======
     "element-ui": "^2.13.2",
->>>>>>> f275f9e00e9c99edefd32b5b57acac9c9f17ccc3
     "vant": "^2.9.4",
     "vue": "^2.6.11"
   },
